@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&family=Raleway:wght@300&family=Mr+Dafoe&display=swap");
+
+/* about section */
+.about-section .img {
+  width: 6rem;
+}
+.about-section h2 {
+  font-weight: bold;
+}
+.about-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.about-section .side-links li button {
+  padding: 0.5rem 0.8rem;
+  border-left: solid transparent;
+}
+.about-section .side-links li.active button,
+.about-section .side-links li button:hover {
+  border-left: solid #be0029;
+  color: #be0029;
+}
+.about-section .side-links button {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 0rem;
+}
+.about-section h5 {
+  display: inline-block;
+  background-color: rgb(190, 0, 41, 0.3);
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+.about-section h3 {
+  font-weight: bold;
+}
+.about-section .banner .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about-section .banner .center:nth-of-type(1) h2 {
+  font-size: 4rem;
+}
+/* about section end */
+
+/* contact form */
+.contact-section .title h2:nth-last-of-type(2) {
+  margin: auto;
+}
+.contact-section .title .img {
+  width: 6rem;
+  margin: auto;
+}
+.contact-section .title h2:nth-last-of-type(1) {
+  font-weight: bold;
+}
+/* contact form end */
+
+/* projects section */
+.project-section .title h2:nth-last-of-type(2) {
+  margin: auto;
+}
+.project-section .title .img {
+  width: 6rem;
+  margin: auto;
+}
+.project-section .title h2:nth-last-of-type(1) {
+  font-weight: bold;
+}
+.project-card .img-fluid {
+  height: 30rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.project-card .project-desc .col-10 {
+  border-top: solid#be0029;
+  background-color: white;
+}
+.project-card .project-desc {
+  position: relative;
+  margin-top: -6rem;
+}
+.project-card .project-desc p:nth-of-type(1) {
+  font-size: 2rem;
+  color: #be0029;
+}
+.project-card .project-desc h3 {
+  font-weight: bold;
+}
+span.stack {
+  text-transform: uppercase;
+  padding: 0.3rem 0.7rem;
+  margin: 0.2rem 0.7rem 0.2rem 0rem;
+  background-color: rgb(190, 0, 41, 0.3);
+  border-radius: 0.2rem;
+  display: inline-block;
+}
+.project-card .project-desc .icons {
+  margin-top: 1rem;
+}
+.project-card .project-desc span.icon {
+  margin-right: 0.5rem;
+}
+.project-card .project-desc span.icon .link {
+  color: #be0029;
+  font-size: 1.5rem;
+}
+.project-card .project-desc span.icon .link:hover {
+  color: #8d0120;
+}
+/* projects section end */
+
+/* experiences section */
+.exp-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.exp-section .side-links li button {
+  padding: 0.5rem 0.8rem;
+  border-left: solid transparent;
+}
+.exp-section .side-links li.active button,
+.exp-section .side-links li button:hover {
+  border-left: solid #be0029;
+  color: #be0029;
+}
+.exp-section .side-links button {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 0rem;
+}
+.exp-section h5 {
+  display: inline-block;
+  background-color: rgb(190, 0, 41, 0.3);
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+.exp-section h3 {
+  font-weight: bold;
+}
+.exp-section .banner .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.exp-section .banner .center:nth-of-type(1) h2 {
+  font-size: 4rem;
+}
+/* experiences section end */
+
+/* social links */
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.social-links a {
+  color: #212529;
+}
+.social-links a:hover,
+.social-links a:focus {
+  color: #be0029;
+}
+.social-link {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.75rem;
+}
+/* social links end */
+
+/* home banner */
+.home-banner h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+/* home banner end */
+
+/* page banner */
+.page-banner,
+.home-banner {
+  position: relative;
+  height: 100vh;
+}
+.page-banner .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page-banner .center h1,
+.exp-section .banner .center:nth-of-type(1) h2 {
+  color: #be0029;
+  font-family: "Mr Dafoe", cursive;
+  transform: rotate(-10deg);
+  background: -webkit-linear-gradient(45deg, #fff, #be0029);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 115%;
+  padding: 1.5rem;
+}
+.page-banner .center h1 {
+  font-size: 7rem;
+}
+.page-banner .center h2,
+.exp-section .banner .center:nth-of-type(2),
+.project-section .title h2:nth-last-of-type(2),
+.contact-section .title h2:nth-last-of-type(2) {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: "Reggae One", cursive;
+}
+/* page banner end */
+
+/* footer */
+footer .footer-foot {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+footer .foot-item {
+  display: inline-block;
+  margin: 0 1rem;
+}
+footer .foot-link {
+  color: #212529;
+}
+footer .foot-link:hover,
+footer .foot-link.active {
+  color: #be0029;
+  text-decoration: none;
+}
+/* footer end */
+
+/* navbar */
+nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-scrolled {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+/* navbar end */
+
+/* common */
+/* font */
+body {
+  font-family: "Raleway", sans-serif;
+}
+/* font end */
+.bg-paint {
+  background: url("../assets/bg-paint.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-red-paint {
+  background: url("../assets/bg-red-paint.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.btn-primary {
+  background-color: #be0029;
+  border-color: #be0029;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #8d0120 !important;
+  border-color: #8d0120 !important;
+}
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(141, 1, 32, 0.5) !important;
+}
+.text-line-6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.text-line-6 {
+  -webkit-line-clamp: 6;
+}
+/* media < sm */
+@media only screen and (max-width: 576px) {
+  .exp-section ul.side-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .exp-section .side-links li button {
+    padding: 0.5rem 0.8rem;
+    border-left: none;
+    border-bottom: solid transparent;
+  }
+  .exp-section .side-links li button:hover,
+  .exp-section .side-links li.active button {
+    padding: 0.5rem 0.8rem;
+    border-left: none;
+    border-bottom: solid #be0029;
+    color: #be0029;
+  }
+  .page-banner .center h1,
+  .exp-section .banner .center:nth-of-type(1) h2 {
+    color: #be0029;
+    font-family: "Mr Dafoe", cursive;
+    transform: rotate(-10deg);
+    background: -webkit-linear-gradient(45deg, #fff, #be0029);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    padding: 0;
+  }
+}
+/* media < sm end */
+/* media > sm */
+@media only screen and (min-width: 576px) {
+  footer .foot-item {
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .page-banner .center h1 {
+    font-size: 10rem;
+  }
+  .exp-section .banner .center:nth-of-type(1) h2 {
+    font-size: 6rem;
+  }
+}
+/* media > sm end */
+/* media > md */
+@media only screen and (min-width: 768px) {
+  .page-banner .center h1 {
+    font-size: 14rem;
+  }
+  .exp-section .banner .center:nth-of-type(1) h2 {
+    font-size: 3rem;
+  }
+}
+/* media > md end */
+/* media > lg */
+@media only screen and (min-width: 992px) {
+  .page-banner .center h1 {
+    font-size: 16rem;
+  }
+  .exp-section .banner .center:nth-of-type(1) h2 {
+    font-size: 4rem;
+  }
+}
+/* media > lg end */
+/* common end */

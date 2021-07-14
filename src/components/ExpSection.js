@@ -49,7 +49,9 @@ const ExpSection = () => {
                   {jobs.map((job, index) => {
                     return (
                       <li
-                        className={index === value ? "active" : ""}
+                        className={`d-flex align-items-bottom ${
+                          index === value ? "active" : ""
+                        }`}
                         key={job.strapiId}
                       >
                         <button onClick={() => setValue(index)}>

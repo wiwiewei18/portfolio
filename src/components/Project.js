@@ -28,16 +28,24 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
             )
           })}
           <div className="icons">
-            <span className="icon">
-              <a href={github} className="link">
-                <FaGithubSquare />
-              </a>
-            </span>
-            <span className="icon">
-              <a href={url} className="link">
-                <FaShareSquare />
-              </a>
-            </span>
+            {github !== "-" ? (
+              <span className="icon">
+                <a href={github} className="link">
+                  <FaGithubSquare />
+                </a>
+              </span>
+            ) : (
+              ""
+            )}
+            {url !== "-" ? (
+              <span className="icon">
+                <a href={url} className="link">
+                  <FaShareSquare />
+                </a>
+              </span>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
